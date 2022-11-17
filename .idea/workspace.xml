@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Adds Facade">
-      <change afterPath="$PROJECT_DIR$/src/Factory/CheeseBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/GreekBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Hamburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/HamburgerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/HamburgerStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/VeggieBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Adds Factory">
+      <change beforePath="$PROJECT_DIR$/src/Factory/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/CheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/GreekBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/GreekPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/HamburgerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/PizzaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/HamburgerStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/VeggieBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/VeggiePizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668696255427</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adds Factory">
+      <created>1668697214519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668697214519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +200,7 @@
     <MESSAGE value="Adapter and Bridge" />
     <MESSAGE value="Adds Command" />
     <MESSAGE value="Adds Facade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Facade" />
+    <MESSAGE value="Adds Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Factory" />
   </component>
 </project>

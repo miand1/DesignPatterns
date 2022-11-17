@@ -1,9 +1,9 @@
 package Factory;
 
-public class GreekBurger extends Hamburger {
+public class GreekPizza extends Pizza {
     @Override
     void prepare() {
-        System.out.println("Preparing greek burger");
+        System.out.println("Preparing greek pizza");
     }
 
     @Override
