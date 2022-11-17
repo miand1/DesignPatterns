@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Adds Factory">
-      <change beforePath="$PROJECT_DIR$/src/Factory/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/CheesePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/GreekBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/GreekPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/HamburgerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/PizzaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/HamburgerStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/PizzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/VeggieBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/WhatsappGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <recent name="Bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factory.Demo">
+  <component name="RunManager" selected="Application.Observer.Demo">
     <configuration name="Bridge.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bridge.Demo" />
       <module name="DesignPatterns" />
@@ -67,19 +66,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adapter.Demo" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Observer.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Observer.Demo" />
         <item itemvalue="Application.Factory.Demo" />
         <item itemvalue="Application.Facade.Demo" />
         <item itemvalue="Application.Command.Demo" />
         <item itemvalue="Application.Bridge.Demo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668697214519</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adds Factory">
+      <created>1668697376022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668697376022</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
