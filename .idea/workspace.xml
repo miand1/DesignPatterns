@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Socket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/SocketAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/SocketAdapterImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Volt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/RedColour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Square.java" afterDir="false" />
+    <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Adapter and Bridge">
+      <change afterPath="$PROJECT_DIR$/src/Command/CircleCursor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CircleCursorDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CircleCursorUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/RemoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +45,26 @@
       <recent name="Bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bridge.Demo">
+  <component name="RunManager" selected="Application.Command.Demo">
     <configuration name="Bridge.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bridge.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Command.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Command.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Command.Demo" />
         <item itemvalue="Application.Bridge.Demo" />
         <item itemvalue="Application.Demo" />
       </list>
@@ -106,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668692981973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adapter and Bridge">
+      <created>1668694752973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668694752973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Adapter and Bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter and Bridge" />
   </component>
 </project>
