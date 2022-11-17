@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Adds Factory">
-      <change afterPath="$PROJECT_DIR$/src/Observer/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/WhatsappGroup.java" afterDir="false" />
+    <list default="true" id="e702f81e-b078-47b3-9e42-50d66f4d2812" name="Changes" comment="Adds Observer">
+      <change afterPath="$PROJECT_DIR$/src/Composite/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +46,13 @@
       <recent name="Bridge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Observer.Demo">
-    <configuration name="Bridge.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bridge.Demo" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Command.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Command.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bridge.*" />
+          <option name="PATTERN" value="Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Command.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Command.Demo" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Command.*" />
+          <option name="PATTERN" value="Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Observer.Demo" />
         <item itemvalue="Application.Factory.Demo" />
         <item itemvalue="Application.Facade.Demo" />
         <item itemvalue="Application.Command.Demo" />
-        <item itemvalue="Application.Bridge.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668697376022</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adds Observer">
+      <created>1668698551466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668698551466</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +214,7 @@
     <MESSAGE value="Adds Command" />
     <MESSAGE value="Adds Facade" />
     <MESSAGE value="Adds Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Factory" />
+    <MESSAGE value="Adds Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Observer" />
   </component>
 </project>
